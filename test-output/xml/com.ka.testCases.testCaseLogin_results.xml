@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="2"
+           time="0.026">
+  <properties />
+  
+            <testcase name="TestCaseLogin" time="0.0" classname="com.ka.testCases.testCaseLogin">
+          <skipped />
+    </testcase>
+            <testcase name="TestCaseLogin" time="0.0" classname="com.ka.testCases.testCaseLogin">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

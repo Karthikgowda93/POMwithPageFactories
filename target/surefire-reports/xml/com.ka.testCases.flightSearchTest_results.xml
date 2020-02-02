@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search Flight Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="22.499">
+  <properties />
+  
+            <testcase name="FlightSearchTest" time="0.0" classname="com.ka.testCases.flightSearchTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="FlightSearchTest" time="22.498" classname="com.ka.testCases.flightSearchTest" />
+      
+</testsuite>
