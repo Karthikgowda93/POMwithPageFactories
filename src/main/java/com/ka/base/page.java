@@ -32,8 +32,8 @@ public class page {
 	public static WebDriverWait wait;
 
 	public static Date d = new Date();
-	static String fileName = d.toString().replace(":", "_").replace(" ", "_")+".html";
-	// static String fileName = "Extent.html"; // this is for the extent reports to
+	//static String fileName = d.toString().replace(":", "_").replace(" ", "_")+".html";
+	 static String fileName = "Extent.html"; // this is for the extent reports to
 	// Jenkins
 
 	public static ExtentReports extent = ExtentManager

@@ -44,7 +44,7 @@ public class customlistener extends page implements ITestListener, ISuiteListene
 	public void onFinish(ISuite suite) {
 		
 		try {
-			messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/pageObjectModel/Extent_Report/";
+			messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/POMWithPagefactory/Extent_Report/";
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
