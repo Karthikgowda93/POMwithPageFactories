@@ -37,7 +37,7 @@ public class flightSearchTest {
 		                                               // try adding ' in every date column
 		hp.goToFlights().bookAFlights(data.get("from"), data.get("to"), data.get("departing"), data.get("returning"));
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

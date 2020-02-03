@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -101,6 +102,15 @@ public class page {
 		element.sendKeys(value);
 		log.debug("Typing on Element "+element+" with value as "+value);
 		customlistener.testReport.get().log(Status.INFO, "typing on Element "+element+"  with value as "+value);
+		
+	}
+	
+	public static void select(WebElement element, String value) {
+		
+		Select select = new Select(element);
+		select.selectByValue(value);
+		log.debug("Selecting on the element :"+element+" with the value"+value);
+		customlistener.testReport.get().log(Status.INFO, "Clicking on element : "+element+" selecting the value"+value);
 		
 	}
 	

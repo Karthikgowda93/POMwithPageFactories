@@ -21,6 +21,11 @@
     </classes>
   </test> <!-- Test -->
   
+  <test  name="Search Flight  and hotel Test">
+    <classes>
+      <class name="com.ka.testCases.hotelAndFlightTest"/>
+    </classes>
+  </test> <!-- Test -->
   
   
   

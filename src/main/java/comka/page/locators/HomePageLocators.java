@@ -16,7 +16,7 @@ public class HomePageLocators {
 	
 	// locators to book a flight
 	
-	@FindBy(css="#flight-origin-hp-flight")
+	@FindBy(css="#flight-origin-hp-flight") 
 	public WebElement fromCity;
 	@FindBy(css="#flight-destination-hp-flight")
 	public WebElement ToCity;
@@ -52,7 +52,49 @@ public class HomePageLocators {
 	public List<WebElement> menucount;
 	
 
+	// locators for booking Flight And Hotel 
 	
+	@FindBy(css="#tab-package-tab-hp")
+	public WebElement hotelAndFlightTab;
+	
+	@FindBy(css="#package-origin-hp-package")
+	public WebElement Origin;
+	@FindBy(css="#package-destination-hp-package")
+	public WebElement destination;
+	@FindBy(css="#package-departing-hp-package")
+	public WebElement departing2;
+	@FindBy(css="#package-returning-hp-package")
+	public WebElement returning2;
+	@FindBy(xpath="//div[@id='traveler-selector-hp-package']//button[@class='trigger-utility menu-trigger btn-utility btn-secondary dropdown-toggle theme-standard pin-left menu-arrow gcw-component gcw-traveler-amount-select gcw-component-initialized']")
+	public WebElement traveller;
+	@FindBy(xpath="//div[@class='traveler-selector-room-data target-clone-field']/div[@class='uitk-grid step-input-outside gcw-component gcw-component-step-input gcw-step-input gcw-component-initialized']/div[@class='uitk-col all-col-shrink']/button[@class='uitk-step-input-button uitk-step-input-plus']/span[@class='uitk-icon']/*[1]")
+	public WebElement adults;
+	@FindBy(xpath="//div[@class='infants-wrapper']//div[@class='uitk-grid step-input-outside gcw-component gcw-component-step-input gcw-step-input gcw-component-initialized']//button[@class='uitk-step-input-button uitk-step-input-plus']//*[@class='uitk-icon-svg uitk-step-input-icon']")
+	public WebElement infants;
+	
+	@FindBy(xpath="//*[@id=\"traveler-selector-hp-package\"]/div/ul/li/div/div/div[1]/div[3]/div[1]/div[4]/button/span[1]")
+	public WebElement addChild;
+	
+	
+	@FindBy(xpath="//div[@class='traveler-selector-room-data target-clone-field']//div[@class='children-wrapper']//button[@class='uitk-step-input-button uitk-step-input-plus']//*[@class='uitk-icon-svg uitk-step-input-icon']")
+	public WebElement children;
+	@FindBy(xpath="(//select[@class='gcw-storeable gcw-toggles-field-by-value gcw-child-age-select gcw-child-age-1-1-fh'])[2]")
+	public WebElement childAge;
+	@FindBy(xpath="//label[@class='select icon icon-toggle180 col gcw-infant-field infant-age-1-hp-package gcw-child-field']//select[@class='gcw-storeable gcw-toggles-field-by-value gcw-child-age-select gcw-infant-age-1-fh']")
+	public WebElement infantAge;
+	@FindBy(css="#partialHotelBooking-hp-package")
+	public WebElement checkbox;
+	@FindBy(css="#package-checkin-hp-package")
+	public WebElement checkin;
+	@FindBy(css="#package-checkout-hp-package")
+	public WebElement checkout;
+	@FindBy(css="#package-advanced-preferred-class-hp-package")
+	public WebElement classOptions;
+	
+	@FindBy(css="#search-button-hp-package")
+	public WebElement searchbtn2;
+
+
 	
 	
 }
